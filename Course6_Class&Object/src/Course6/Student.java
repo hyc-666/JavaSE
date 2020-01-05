@@ -7,6 +7,14 @@ public class Student {
     private String tel;
     private int age;
 
+    public Student(String id, String name, String grade, String tel, int age) {
+        this.id = id;
+        this.name = name;
+        this.grade = grade;
+        this.tel = tel;
+        this.age = age;
+    }
+
     public Student(String id, String name) {
         this.id = id;
         this.name = name;
