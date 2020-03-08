@@ -81,7 +81,7 @@ public class SingleLinkedList {
         }
         return size;
     }
-    //查询是否存在某个关键值
+    //查询是否存在某个关键字
     public boolean contains(int data){
         if(head == null){
             return false;

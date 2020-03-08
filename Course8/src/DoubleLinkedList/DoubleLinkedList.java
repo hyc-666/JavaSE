@@ -126,6 +126,7 @@ public class DoubleLinkedList {
             node.prev = null;
             return;
         }
+        //删除中间结点
         node.prev.next = node.next;
         node.next.prev = node.prev;
         node.prev = null;
@@ -137,7 +138,7 @@ public class DoubleLinkedList {
             remove(key);
         }
     }
-    public void clear(){
+    public void clear(){//清楚链表
         head = null;
 
     }
