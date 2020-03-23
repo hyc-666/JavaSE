@@ -138,7 +138,7 @@ public class DoubleLinkedList {
             remove(key);
         }
     }
-    public void clear(){//清楚链表
+    public void clear(){//清除链表
         head = null;
 
     }

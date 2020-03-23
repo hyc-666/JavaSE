@@ -17,7 +17,7 @@ class Node{//结点
 }
 //单链表
 public class SingleLinkedList {
-    Node head = null;
+    Node head = null;//头节点
     //头插
     public void firstAdd(int data){
         Node node = new Node(data);
